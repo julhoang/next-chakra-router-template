@@ -1,9 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). 
+
+- The project structure follows the `\src` folder convention, and **TypeScript** is used for strong typing.
+- The project comes with a pre-built **sidebar tab navigation** feature that provides a simple **routing** mechanism. 
+- The user interface is styled using the **Chakra UI** library, which offers customizable and accessible UI components.
+
 
 ## Getting Started
 
-First, run the development server:
+Step 1: Clone the project:
+```bash
+git clone [url to this project]
+```
 
+Step 2: Change directory into the project:
+```bash
+cd next-chakra-router-template
+```
+
+Step 3: Install all packages and dependencies:
+```bash
+npm install
+```
+
+Step 4: Run the development server:
 ```bash
 npm run dev
 # or
